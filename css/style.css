@@ -1,0 +1,235 @@
+body {
+    background-color: #3A5BA0;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #3A5BA0;
+    border: 2px #3A5BA0 dashed;
+    border-radius: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+.header {
+    background-color: #3A5BA0;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-links a {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/*-------------------------------------HEADER CSS ENDS----------------------------------------*/
+
+.headingbanner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.banner-items-text {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*-------------------------------------ABOUT ME CSS----------------------------------------*/
+
+.about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-items p {
+   max-width: 1024px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+/*-------------------------------------MY SKILLS CSS----------------------------------------*/
+
+.myskills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.myskills-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.myskills-item{
+    margin: 20px;
+    border: #fff 2px dashed;
+    width: 190px;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.myskills-item hr {
+    width: 55px;
+    border: 1px white dashed;
+}
+
+.myskills-item p {
+    text-align: center;
+}
+
+
+/*-------------------------------------MY PROJECTS CSS----------------------------------------*/
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: 50%
+}
+
+/*-------------------------------------MY PROJECTS CSS----------------------------------------*/
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    background-color: #fff;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+}
+
+.contact-item p {
+    color: #3A5BA0;
+    text-align: center;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #3A5BA0;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.fa-location-dot, .fa-phone, .fa-envelope  {
+    color: #3A5BA0;
+    font-size: 30px;
+}
+
+.contactme-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+/*-------------------------------------MY PROJECTS CSS/HOVER----------------------------------------*/
+.bottom-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+
+}
+
+.bottom-footer p {
+    color: #3A5BA0;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.fa-heart {
+    color: #3A5BA0;
+    font-size: 15px;
+}
+
+.fa-user {
+    color: #fff;
+    font-size: 50px;
+    
+}
+/*-------------------------------------FORM----------------------------------------*/
+.form {
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-items {
+    padding: 10px;
+    color: #fff;
+    
+    border-radius: 20px;
+    
+}
+
+input, textarea {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+input[type="submit" i] {
+    width: 30%;
+    color: #3A5BA0;
+}
